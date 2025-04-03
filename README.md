@@ -1,6 +1,6 @@
 # Virtual Thread
 
-In genral virtual thread is aims to improve the throughput allowing the application to execute more concurrent work or accept more request under a thread-per-request approach. Virtual threads still uses platform OS threads as carriers. Once the virtual thread gets blocked it platform thread is free to accept a new vritual threads. We have to keep in mind with virtual thread we no longer have a 1:1 relationship between virtual and platform threads.
+In genral virtual thread is aims to improve the throughput allowing the application to execute more concurrent work or accept more request under a thread-per-request approach. Virtual threads still uses platform OS threads as carriers. Once the virtual thread gets blocked, platform thread will become free to accept a new vritual threads. We have to keep in mind that with virtual threads we no longer have a 1:1 relationship between virtual and platform threads.
 
 ## Considerations
 
