@@ -22,4 +22,4 @@ There are multiple ways to identify pinned thread the most common options are vi
 
 `java -Djdk.tracePinnedThreads=full <java_program>`
 
-you can use **short** if you don't want to pring the whole stack trace.
+you can use **short** if you don't want to print the whole stack trace.
